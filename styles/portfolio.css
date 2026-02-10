@@ -1,21 +1,24 @@
-
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+  "wdth" 100;
 }
 
 /* Shared Style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
 
+
 .dark-2{
     color: #474747;
 }
+
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -26,6 +29,16 @@
     border-radius: 5px;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 /* Header */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -86,8 +99,16 @@ nav li a{
 .banner-profile-pic{
     width: 580px;
 }
+/* Main Styles */
+main{
+    min-width: 1140px;
+    margin: 0 auto;
+}
 
-
+/* About Styles */
+.about{
+    border-radius: 10px;
+}
 
 
 
